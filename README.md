@@ -32,7 +32,7 @@ This repository contains the complete analysis pipeline for a retrospective seco
 ├── .gitignore
 │
 ├── notebooks/
-│   └── Dataset_Analysis.ipynb          # Main analysis notebook (Google Colab)
+│   └── Pediatric_Sepsis_ML.ipynb          # Main analysis notebook (Google Colab)
 │
 ├── src/
 │   ├── 01_dataset_construction.py      # Steps 1–8: CRF merging, imputation, PSS scoring
