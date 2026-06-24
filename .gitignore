@@ -1,0 +1,99 @@
+# ============================================================
+# .gitignore — Pediatric Sepsis ML
+# ============================================================
+
+# ---- Data files (never commit patient data) ----
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+data/
+datasets/
+outputs/csv/
+
+# Exception: keep placeholder or example output files if needed
+# !outputs/csv/.gitkeep
+
+# ---- Jupyter / Colab notebooks (outputs only) ----
+# Uncomment the line below to strip notebook outputs before committing
+# *.ipynb  # if you want to exclude notebooks entirely
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+x
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---- Virtual environments ----
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ---- Google Drive mount artifacts ----
+.gvfs
+drive/
+
+# ---- Generated figures ----
+# Comment this out if you want to track figures in the repo
+*.png
+*.pdf
+*.svg
+*.eps
+
+# ---- IDE / editor ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Optuna study databases ----
+*.db
+optuna_studies/
+
+# ---- Secrets / credentials ----
+.env
+*.key
+secrets.py
+credentials.json
+token.json
+
+# ---- OS generated ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
