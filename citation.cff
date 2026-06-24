@@ -1,0 +1,115 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite both the software and the associated manuscript."
+
+title: "Pediatric Sepsis ML — Analysis Pipeline"
+abstract: >
+  Machine learning-based concurrent diagnostic classification pipeline for
+  pediatric sepsis and septic shock using the 2024 Phoenix Sepsis Score as
+  the outcome label. Developed on a retrospective cohort of 100 children
+  admitted to the icddr,b ICU in Dhaka, Bangladesh. Implements patient-clustered
+  bootstrap confidence intervals, Harrell/Steyerberg optimism correction,
+  Optuna hyperparameter optimization, and pre-specified threshold reporting
+  across two feature sets (Clinical+Laboratory and Non-Laboratory) and two
+  outcomes (sepsis and septic shock).
+
+authors:
+  - family-names: "Bunch"
+    given-names: "Kaden"
+    affiliation: "Warren Alpert Medical School of Brown University"
+    email: "kaden_bunch@brown.edu"
+  - family-names: "Shaima"
+    given-names: "Shamsun Nahar"
+    affiliation: "International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)"
+  - family-names: "Mamun"
+    given-names: "Gazi Md. Salahuddin"
+    affiliation: "International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)"
+  - family-names: "Jarabana"
+    given-names: "Sai Gopal"
+    affiliation: "Brown Health"
+  - family-names: "Gainey"
+    given-names: "Monique"
+    affiliation: "Virginia Tech"
+  - family-names: "Rahman"
+    given-names: "Abu Sayem Mirza Md. Hasibur"
+    affiliation: "International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)"
+  - family-names: "Genisca"
+    given-names: "Alicia"
+    affiliation: "Warren Alpert Medical School of Brown University"
+  - family-names: "Jindal"
+    given-names: "Atin"
+    affiliation: "Warren Alpert Medical School of Brown University"
+  - family-names: "Kadakia"
+    given-names: "Nidhi"
+    affiliation: "Yale School of Medicine"
+  - family-names: "Sarmin"
+    given-names: "Monira"
+    affiliation: "International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)"
+  - family-names: "Afroze"
+    given-names: "Farzana"
+    affiliation: "International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)"
+  - family-names: "Levine"
+    given-names: "Adam C"
+    affiliation: "Warren Alpert Medical School of Brown University"
+  - family-names: "Chisti"
+    given-names: "Mohammod Jobayer"
+    affiliation: "International Centre for Diarrhoeal Disease Research, Bangladesh (icddr,b)"
+  - family-names: "Garbern"
+    given-names: "Stephanie Chow"
+    affiliation: "Warren Alpert Medical School of Brown University"
+    email: "stephanie_garbern@brown.edu"
+
+version: "1.0.0"
+date-released: "2026"
+license: MIT
+repository-code: "https://github.com/[YOUR_GITHUB_USERNAME]/pediatric-sepsis-ml"
+
+keywords:
+  - pediatric sepsis
+  - machine learning
+  - diagnostic classification
+  - Phoenix Sepsis Score
+  - logistic regression
+  - resource-limited settings
+  - low- and middle-income countries
+  - Bangladesh
+  - bootstrap confidence intervals
+  - clinical decision support
+
+preferred-citation:
+  type: article
+  title: >
+    Utilizing Machine Learning for Pediatric Sepsis and Septic Shock
+    Diagnosis in Resource-Limited Settings
+  authors:
+    - family-names: "Bunch"
+      given-names: "Kaden"
+    - family-names: "Shaima"
+      given-names: "Shamsun Nahar"
+    - family-names: "Mamun"
+      given-names: "Gazi Md. Salahuddin"
+    - family-names: "Jarabana"
+      given-names: "Sai Gopal"
+    - family-names: "Gainey"
+      given-names: "Monique"
+    - family-names: "Rahman"
+      given-names: "Abu Sayem Mirza Md. Hasibur"
+    - family-names: "Genisca"
+      given-names: "Alicia"
+    - family-names: "Jindal"
+      given-names: "Atin"
+    - family-names: "Kadakia"
+      given-names: "Nidhi"
+    - family-names: "Sarmin"
+      given-names: "Monira"
+    - family-names: "Afroze"
+      given-names: "Farzana"
+    - family-names: "Levine"
+      given-names: "Adam C"
+    - family-names: "Chisti"
+      given-names: "Mohammod Jobayer"
+    - family-names: "Garbern"
+      given-names: "Stephanie Chow"
+  journal: "Pediatric Reports"
+  publisher: "MDPI"
+  year: 2026
+  notes: "Manuscript ID: pediatrrep-4358533"
