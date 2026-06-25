@@ -195,7 +195,7 @@ See also `CITATION.cff` for machine-readable citation metadata.
  
 ## License
  
-This code is released under the [MIT License](LICENSE). The underlying dataset is not included and remains subject to IRB restrictions (see Data Availability above).
+This code is released under the [MIT License](LICENSE). The underlying dataset is included (see Data Availability above).
  
 ---
  
