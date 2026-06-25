@@ -23,8 +23,4 @@ SOFTWARE.
 
 ---
 
-NOTE ON DATA: The underlying clinical dataset used in the associated manuscript
-is NOT included in this repository and is NOT covered by this license. That
-dataset was collected under IRB approval from the icddr,b Institutional Review
-Board and the Rhode Island Hospital IRB and remains subject to those
-restrictions. This license applies to the analysis code only.
+NOTE ON DATA: The underlying clinical dataset can be found at https://osf.io/bju56/
