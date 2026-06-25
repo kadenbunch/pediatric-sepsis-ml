@@ -135,10 +135,8 @@ python src/03_ml_analysis.py
  
 ## Data Availability
  
-The raw dataset (`REMEDIES_R21_Final_Dataset.csv`) is **not publicly available** due to patient privacy and IRB restrictions. Data were collected under protocols approved by the icddr,b Institutional Review Board (Research Review Committee and Ethical Review Committee) and the Rhode Island Hospital IRB.
- 
-Researchers interested in accessing the data for collaborative purposes should contact the corresponding author (stephanie_garbern@brown.edu).
- 
+The raw dataset (`REMEDIES_R21_Final_Dataset.csv`) can be found at the following link: https://osf.io/bju56/
+  
 ---
  
 ## Reproducing the Analysis
