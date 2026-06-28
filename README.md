@@ -83,8 +83,8 @@ D-dimer and fibrinogen were unavailable and scored as 0 per PSS guidelines. Seps
  
 ### Machine Learning Pipeline
 - **Models:** Decision Tree, Random Forest, SVM (linear), Kernel SVM (RBF), Naïve Bayes, KNN, Logistic Regression
-- **Hyperparameter optimization:** Optuna (50 trials, AUPRC scoring, stratified group k-fold)
-- **Cross-validation:** Stratified group 5-fold (N_REPEATS = 40), patient-clustered
+- **Hyperparameter optimization:** Optuna (50 trials, AUPRC scoring, stratified k-fold)
+- **Cross-validation:** Stratified 5-fold (N_REPEATS = 40), patient-clustered
 - **Confidence intervals:** 2,000-resample patient-level clustered bootstrap on fixed out-of-fold predictions
 - **Optimism correction:** Harrell/Steyerberg bootstrap (apparent − mean[boot_train − boot_test])
 - **Thresholds:** Three pre-specified operating points: 0.50 (reference), inner-CV F1-optimal (train only), 0.30 (screening)
